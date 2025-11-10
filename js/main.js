@@ -8,42 +8,42 @@ class TechStoreApp {
                 name: "Наушники Apple AirPods Pro 2 generation MagSafe Case USB-C (MTJV3)",
                 description: "Наушники Apple AirPods Pro (MTJV3) — модель типа вкладыши в корпус из пластика, амбушюры сделаны из силикона.",
                 price: 22999,
-                image: "images/airpods.avif"
+                image: "images/airpods.png"
             },
             {
                 id: "2",
                 name: "Наушники студийные Axelvox AX81",
                 description: "Студийные наушники Axelvox AX81 подключаются к совместимым устройствам с помощью провода 2,5 м.",
                 price: 4607,
-                image: "images/dj.avif"
+                image: "images/dj.png"
             },
             {
                 id: "3",
                 name: "Наушники накладные Bluetooth HIPER HTW-QTX27",
                 description: "Наушники накладные Bluetooth Hiper HTW-QTX27 подключаются через Bluetooth 5.3.",
                 price: 1499,
-                image: "images/hiper.avif"
+                image: "images/hiper.png"
             },
             {
                 id: "4",
                 name: "Наушники True Wireless HUAWEI FreeBuds SE 2 T0016 White",
                 description: "Наушники True Wireless HUAWEI FreeBuds SE 2 T0016 White с полуоткрытым акустическим оформлением оборудованы микрофоном для использования в качестве гарнитуры.",
                 price: 2199,
-                image: "images/huawei.avif"
+                image: "images/huawei.png"
             },
             {
                 id: "5",
                 name: "Игровые наушники Logitech G733 Lightspeed Black",
                 description: "Игровые наушники Logitech G733 Lightspeed Black (981-000864) закрытого типа с чувствительностью 87,5 дБ.",
                 price: 12799,
-                image: "images/mgame.avif"
+                image: "images/mgame.png"
             },
             {
                 id: "6",
                 name: "Наушники Sony WH-1000XM5 Silver",
                 description: "Накладные наушники Sony WH-1000XM5 Silver с оголовьем и амбушюрами серебристого цвета для подключения к устройствам технологии Bluetooth 5.2.",
                 price: 34223,
-                image: "images/sony.avif"
+                image: "images/sony.png"
             }
         ];
         this.init();
@@ -284,3 +284,4 @@ function show404Page() {
 document.addEventListener("DOMContentLoaded", () => {
     new TechStoreApp();
 });
+
